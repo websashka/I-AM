@@ -1,0 +1,38 @@
+.container {
+    background-image: url("/images/yellow-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    justify-content: start;
+    grid-template-columns: 70% 30%;
+}
+
+.greetings {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+}
+
+.photo {
+    transform: rotate(30deg);
+}
+
+.position {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FDC435;
+
+}
+
+.container__text {
+    max-width: 800px;
+}
